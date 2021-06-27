@@ -1,0 +1,20 @@
+{
+  "name": "CRUD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd client && npm install",
+    "backend": "cd server && npm install",
+    "start": "npm run startServer & npm run startClient",
+    "startServer": "cd server && npm run start",
+    "startClient": "cd client && npm start",
+    "build": "npm run frontend && npm run backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
